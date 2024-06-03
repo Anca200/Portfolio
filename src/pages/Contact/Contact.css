@@ -82,10 +82,11 @@ hr{
     margin: 5px;
 }
 .svg-form{
-    stroke:white;
+    stroke:rgb(0, 0, 0);
     color: transparent;
     position: absolute;
     margin: auto;
     inset: 0;
     z-index: -1;
+    filter: drop-shadow(0 0 0.75rem #38598b);
 }
