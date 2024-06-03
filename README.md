@@ -3,6 +3,4 @@ Live at ->  <a href="https://portfolio-anca2024.netlify.app/">Live</a>
  <hr/>
  
 
-
-https://github.com/Anca200/Portfolio/assets/158541722/99194aea-6351-4fe0-add5-89c74985f917
-
+![portfolio](https://github.com/Anca200/Portfolio/assets/158541722/e8c7854d-79fc-4442-9e2c-ad7a7e9da1ea)
