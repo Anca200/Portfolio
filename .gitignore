@@ -22,3 +22,5 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+!../assets../Anca Pandeli Resume.pdf
