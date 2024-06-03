@@ -57,8 +57,9 @@ const sendEmail = (e) => {
 </div>
 <div className='item'>
  <h2>Download CV:</h2>
- <a href={resume}><button>Download</button></a>
  <hr/>
+ <a href={resume}><button>Download</button></a>
+
 
 </div>
  </div>
