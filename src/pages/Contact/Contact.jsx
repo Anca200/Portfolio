@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import "./Contact.css";
 import {motion} from "framer-motion";
 import emailjs from '@emailjs/browser';
+import resume from "../../assets/Anca Pandeli Resume.pdf";
 
 const variants ={
   initial:{
@@ -56,6 +57,7 @@ const sendEmail = (e) => {
 </div>
 <div className='item'>
  <h2>Download CV:</h2>
+ <a href={resume}><button>Download</button></a>
  <hr/>
 
 </div>
