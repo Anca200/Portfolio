@@ -1,0 +1,22 @@
+nav{
+    display: flex;
+    justify-content: end;
+    height: 50px;
+    align-items: center;
+    padding: 0 1rem;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    cursor: pointer;
+}
+ul li:hover{
+color: #38598b;
+
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
