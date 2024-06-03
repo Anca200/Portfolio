@@ -42,7 +42,7 @@ const Hero = () => {
     animate ="animate">
     <h2  >Hi &#128075; I'm a Front-end <span className='span-1'>Developer</span></h2>
     <p  ><span className='span-2'>My name is Anca !</span> <br/>I specialize in crafting user-friendly interfaces that seamlessly blend cutting-edge design with robust functionality, driving optimal user experiences and elevating digital presence</p>
-    <motion.button whileTap={{scale:0.85}} >Check out my projects</motion.button>
+    <a href="#Projects"><motion.button whileTap={{scale:0.85}} >Check out my projects</motion.button></a>
     <a href="#About"><motion.img  variants={textVariants} animate="scrollButton"  src={mouse} alt=""/></a>
     </motion.div>
     </div>
