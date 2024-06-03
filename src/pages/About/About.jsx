@@ -33,21 +33,27 @@ const About = () => {
         <div className='items'>
         <div className='item-skill'>
           <span id="html"><FaHtml5/></span>
+          <p>HTML</p>
           </div>
           <div className='item-skill'>
           <span id="css"><FaCss3Alt /></span>
+          <p>CSS</p>
           </div>
           <div className='item-skill'>
           <span id="js"><RiJavascriptFill /></span>
+          <p>Javascript</p>
           </div>
           <div className='item-skill'>
           <span id="react"><RiReactjsLine/></span>
+          <p>React</p>
           </div>
           <div className='item-skill'>
           <span id="git"><FaGitAlt /></span>
+          <p>Git</p>
           </div>
           <div className='item-skill'>
           <span id="github"><FaGithub /></span>
+          <p>GitHub</p>
           </div>
         </div>
        </div>
