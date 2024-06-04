@@ -17,6 +17,8 @@ align-items: center;
     background-color: white;
     padding: 5px;
     border-radius: 10px;
+    margin: auto;
+    margin-bottom: 10px;
 }
 .progress h1{
     background-color: #113f67;
@@ -25,6 +27,7 @@ align-items: center;
     margin: auto;
     border-radius: 20px;
     margin-bottom: 10px;
+    font-size: 2rem;
 
 }
 

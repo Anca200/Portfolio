@@ -29,7 +29,7 @@ const About = () => {
     initial = "initial"
     animate ="animate">
 
-        <h2>Skills</h2>
+        <h2 className='about-title'>Skills</h2>
         <div className='items'>
         <div className='item-skill'>
           <span id="html"><FaHtml5/></span>
