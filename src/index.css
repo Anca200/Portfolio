@@ -43,7 +43,7 @@ article{
 .scroll-home img{
   width: 100%;
 }
-@media (min-width:375px) and (max-width:920px){
+@media (min-width:375px) and (max-width:935px){
   .scroll-home{
     display: none;
   }

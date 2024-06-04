@@ -37,10 +37,8 @@
  
 }
 
-@media (min-width:375px) and (max-width:920px){
-    .parallax{
-     
-    }
+@media (min-width:375px) and (max-width:935px){
+
     .planet{
         width: 100%;
     }
