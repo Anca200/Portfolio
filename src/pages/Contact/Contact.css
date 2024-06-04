@@ -101,3 +101,14 @@ hr{
     width: 100%;
    }
 }
+
+/*landscape*/
+
+@media (min-width:360px) and (max-width:935px){
+    .contact-text{
+        margin-top: 100px;
+    }
+    .svg-form{
+        width: 300px;
+    }
+}
