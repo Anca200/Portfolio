@@ -5,6 +5,7 @@ import hero_img from "../../assets/hero-img.png";
 import mouse from "../../assets/mouse.svg";
 import { motion} from 'framer-motion';
 import arrow from "../../assets/up-arrow.png";
+import HeaderBar from "../../components/HeaderBar";
 
 const textVariants = {
   initial: {
@@ -47,8 +48,28 @@ const Hero = () => {
     </motion.div>
     </div>
     
-    <div className='imageContainer'>
-     <motion.img variants={textVariants} animate="scrollImg" src={hero_img} alt=""/>
+    <div className='imageContainer rounded-[24px] bg-violet-500'
+    
+style = {{
+  transformStyle: "preserve-3d",
+  transform: "rotateY(-30deg) rotateX(15deg)",
+}} >
+       <motion.div className='relative h-96 w-56 rounded-[24px] border-2 border-b-4 border-r-4 border-white border-l-neutral-200 border-t-neutral-200 bg-neutral-900 p-1 pl-[3px] pt-[3px] phode-body'
+       initial = {{
+        transform : "translateZ(8px) translateY(-2px)",
+       }}
+       animate = {{
+        transform: "translateZ(32px) translateY(-8px),"
+       }}
+       transition = {{
+        repeat: Infinity,
+        repeatType: "mirror",
+        duration: 2,
+        ease: "easeInOut"
+       }}
+       >
+       <HeaderBar/>
+       </motion.div>
     </div>
     <a href="#Home"><div className="scroll-home">
    <img src={arrow} alt=""/>
