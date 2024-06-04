@@ -108,6 +108,9 @@ hr{
    .form-container{
     width: 100%;
    }
+   input{
+    padding: 10px;
+   }
 }
 
 /*landscape*/
