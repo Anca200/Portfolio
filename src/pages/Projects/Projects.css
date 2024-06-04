@@ -60,7 +60,6 @@ margin-bottom: 20px;
 }
 .text-wrapper p {
 line-height: 2;
-margin-bottom: 20px;
 }
 
 .text-wrapper button {
@@ -86,10 +85,14 @@ margin-bottom: 20px;
  
     .container-project{
      flex-direction: column;
-
     }
     .text-wrapper{
         width: 100%;
+        height: auto;
+        margin:  10px 0;
+    }
+    .text-wrapper h2{
+        margin-top: 20px;
     }
  .progress img{
     margin: auto;

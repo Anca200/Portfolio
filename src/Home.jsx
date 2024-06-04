@@ -11,6 +11,7 @@ function Home() {
   return (
     <>
       <section id="Home"><Hero/></section>
+      <section id="Projects"><Parallax type="projects"/></section>
       <section id="About"><About/></section>
       <section id="Projects"><Parallax type="projects"/></section>
       <Project_1/>

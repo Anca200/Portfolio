@@ -3,6 +3,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+
 }
 
 .about-skills h2{
@@ -17,6 +18,7 @@ font-size: 1.8rem;
     -webkit-animation: mover 2s infinite  alternate;
     animation: mover 2s infinite  alternate;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 .item-skill{
     width: 80px;
@@ -93,19 +95,27 @@ margin-bottom: 12px;
 
  .about-container {
 width: 100%;
-height: auto;
-overflow: hidden;
+margin-bottom: 100px;
  }
  .about-container h2{
     font-size: 2rem;
  }
 
  .about-me_container{
-    width: 100%;
+    width: 90%;
    height: auto;
+   padding: 0;
  }
- .item-skill p{
-    align-items: center;
+
+ .item-skill {
+   padding-left:20px;
+   padding-top: 10px;
  }
+ .about-me {
+   margin: 25px 0;
+    padding: 0;
+
+ }
+
 
 }

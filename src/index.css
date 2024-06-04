@@ -17,14 +17,9 @@ body{
 section{
   height: 100vh;
   scroll-snap-align: start;
-  margin-bottom: 30px;
+;
 }
-article{
-  height: 100vh;
-}
-#Projects{
-  height: 110vh;
-}
+
 
 .scroll-home{
   width: 50px;
