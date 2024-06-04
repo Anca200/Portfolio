@@ -84,6 +84,7 @@ line-height: 2;
        background-color: #38598b ;
    }
 
+/*mobile*/
    @media (min-width:360px) and (max-width:935px){
  
     .container-project{
@@ -100,8 +101,14 @@ line-height: 2;
  .progress img{
     margin: auto;
  }
+ .progress{
+    position: relative;
+ }
+ .container-project  {
+    margin-top: 100px;
+    }
    }
-
+/*landscape*/
    @media (orientation: landscape){
     .progress{
         margin-bottom: 120px;
