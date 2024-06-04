@@ -7,6 +7,9 @@
     justify-content: center;
     overflow: hidden;
 }
+.parallax h1{
+    font-size: 2rem;
+}
 .mountains{
     background-image:url("../../assets/mountains.png");
     background-size: cover;
