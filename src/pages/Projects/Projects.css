@@ -103,5 +103,13 @@ line-height: 2;
    }
 
    @media (orientation: landscape){
-    
+    .progress{
+        margin-bottom: 120px;
+        position: relative;
+    }
+
+    .container-project  {
+    margin-top: 400px;
+    }
+
    }
