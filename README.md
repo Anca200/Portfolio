@@ -1,8 +1,6 @@
-# React + Vite
+<h1>Portfolio</h1>
+Live at ->  <a href="https://portfolio-anca2024.netlify.app/">Live</a>
+ <hr/>
+ 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![portfolio](https://github.com/Anca200/Portfolio/assets/158541722/e8c7854d-79fc-4442-9e2c-ad7a7e9da1ea)
