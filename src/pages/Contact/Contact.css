@@ -94,6 +94,9 @@ hr{
     .contact{
         flex-direction: column;
     }
+    .contact-text{
+        width: 100%;
+    }
    .form-container{
     width: 100%;
    }
