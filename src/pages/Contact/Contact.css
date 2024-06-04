@@ -41,6 +41,14 @@ form{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 3em;
+    height: auto;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    transition: all 0.2s ease-in-out;
+    background-color: rgb(17, 63, 103, 0.2);
+  
 }
 input{
     padding: 20px;
