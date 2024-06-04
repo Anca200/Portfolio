@@ -82,7 +82,7 @@ margin-bottom: 20px;
        background-color: #38598b ;
    }
 
-   @media (min-width:375px) and (max-width:935px){
+   @media (min-width:360px) and (max-width:935px){
  
     .container-project{
      flex-direction: column;

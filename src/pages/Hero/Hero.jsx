@@ -55,7 +55,7 @@ const Hero = () => {
       transformStyle: "preserve-3d",
        transform: "rotateY(-30deg) rotateX(15deg)"}}>
         
-       <motion.div className='relative h-96 w-56 rounded-[24px] border-2 border-b-4 border-r-4 border-white border-l-neutral-200 border-t-neutral-200  p-1 pl-[3px] pt-[3px] phone-body'
+       <motion.div className='relative h-96 w-56 rounded-[24px] border-2 border-b-4 border-r-4 border-transparent   p-1 pl-[3px] pt-[3px] phone-body'
        initial = {{
         transform : "translateZ(8px) translateY(-2px)",
        }}
