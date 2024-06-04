@@ -47,4 +47,7 @@ article{
   .scroll-home{
     display: none;
   }
+  html{
+    scroll-snap-type: none;
+  }
 }
