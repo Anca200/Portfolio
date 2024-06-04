@@ -101,3 +101,7 @@ line-height: 2;
     margin: auto;
  }
    }
+
+   @media (orientation: landscape){
+    
+   }

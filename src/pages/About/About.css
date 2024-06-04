@@ -114,8 +114,19 @@ margin-bottom: 100px;
  .about-me {
    margin: 25px 0;
     padding: 0;
-
  }
-
-
+}
+/*landscape*/
+@media (orientation: landscape){
+    .items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    .about-me{
+width: 100%;
+margin: 0;
+    }
+    .about-me_container{
+       margin-bottom: 100px;
+    }
 }

@@ -2,18 +2,13 @@
     height: calc(100vh - 55px);
     background:linear-gradient(180deg, #0c0c1d, #111132);
     overflow: hidden;
-
-
 }
 .imageContainer{
     position: absolute;
     top: 120px;
     right: 200px;
     background-color: #000000;
-
-  
 }
-
 .textContainer img{
     width: 50px;
     margin: auto;
@@ -87,6 +82,7 @@ margin-bottom: 30px;
     filter: drop-shadow(0 0 0.75rem #38598b);
 }
 
+/*Mobile*/
 @media (min-width:360px) and (max-width:935px){
 .hero{
 width: 100%;
@@ -114,5 +110,12 @@ flex-direction: column;
     
     }
  
- 
+}
+/*Landscape*/
+@media (orientation: landscape) {
+    .hero{
+        min-height: 500px;
+   
+     }
+
 }
