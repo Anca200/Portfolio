@@ -81,3 +81,17 @@ margin-bottom: 20px;
    .text-wrapper button:hover{
        background-color: #38598b ;
    }
+
+   @media (min-width:375px) and (max-width:920px){
+ 
+    .container-project{
+     flex-direction: column;
+
+    }
+    .text-wrapper{
+        width: 100%;
+    }
+ .progress img{
+    margin: auto;
+ }
+   }

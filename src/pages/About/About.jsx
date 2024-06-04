@@ -28,7 +28,7 @@ const About = () => {
     variants={textVariants}
     initial = "initial"
     animate ="animate">
-       <div className='about-skills'>
+
         <h2>Skills</h2>
         <div className='items'>
         <div className='item-skill'>
@@ -55,7 +55,6 @@ const About = () => {
           <span id="github"><FaGithub /></span>
           <p>GitHub</p>
           </div>
-        </div>
        </div>
 
        <div className='about-me'>
@@ -66,7 +65,6 @@ const About = () => {
           I possess strong creative instincts, allowing me to transform design concepts into engaging and visually striking user experiences.
           </p>
         </div>
-       
        </div>
     </motion.div>
   )

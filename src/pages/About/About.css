@@ -1,16 +1,11 @@
 .about-container{
-    display: flex;
-    flex-direction: column;
-}
-.about-skills{
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 10px;
-
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
+
 .about-skills h2{
-margin-top: 50px;
 background-color: #113f67;
 border-radius: 20px;
 padding: 10px;
@@ -88,4 +83,22 @@ margin-bottom: 12px;
 }
 .about-me_container p{
     line-height: 1.8;
+}
+@media (min-width:375px) and (max-width:920px){
+ .items{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+ }
+
+ .about-container {
+width: 100%;
+height: auto;
+overflow: hidden;
+ }
+
+ .about-me_container{
+    width: 100%;
+   height: auto;
+ }
+
 }
