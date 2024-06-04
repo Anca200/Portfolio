@@ -106,7 +106,8 @@ flex-direction: column;
         width: 100%;
     }
     .imageContainer{
-         position: static;    
+ display: none;
+    
     }
  
  
