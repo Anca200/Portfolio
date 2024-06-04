@@ -1,7 +1,6 @@
 import React from 'react';
 import "./Hero.css";
 import Navbar from '../../components/Navbar';
-import hero_img from "../../assets/hero-img.png";
 import mouse from "../../assets/mouse.svg";
 import { motion} from 'framer-motion';
 import arrow from "../../assets/up-arrow.png";
@@ -48,13 +47,13 @@ const Hero = () => {
     </motion.div>
     </div>
     
-    <div className='imageContainer rounded-[24px] bg-violet-500'
+    <div className='imageContainer rounded-[24px]'
     
 style = {{
   transformStyle: "preserve-3d",
   transform: "rotateY(-30deg) rotateX(15deg)",
 }} >
-       <motion.div className='relative h-96 w-56 rounded-[24px] border-2 border-b-4 border-r-4 border-white border-l-neutral-200 border-t-neutral-200 bg-neutral-900 p-1 pl-[3px] pt-[3px] phode-body'
+       <motion.div className='relative h-96 w-56 rounded-[24px] border-2 border-b-4 border-r-4 border-white border-l-neutral-200 border-t-neutral-200  p-1 pl-[3px] pt-[3px] phone-body'
        initial = {{
         transform : "translateZ(8px) translateY(-2px)",
        }}
