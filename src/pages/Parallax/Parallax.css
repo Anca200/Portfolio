@@ -30,11 +30,10 @@
     background-image:url("../../assets/moon.png");
     background-size: cover;
     background-position: bottom;
-    width: 30%;
-    height:90%;
+    width: 50%;
+    height:80%;
     position: absolute;
     z-index: 2;
- 
 }
 
 @media (min-width:360px) and (max-width:935px){
@@ -48,7 +47,7 @@
 }
 
 /*landscape*/
-@media (orientation: landscape){
+@media (orientation: landscape) and (max-width:935){
  .parallax{
  margin-top: 270px;
  }
