@@ -20,14 +20,6 @@ const items = [
   },
   {
     id:2,
-    title: "Restaurant Landing Page",
-    img:restaurant,
-    desc: "This project provided a comprehensive introduction to React and reinforced the importance of component-based architecture in modern web development.The use of props allowed for efficient data transfer between components, facilitating a seamless and dynamic user experience.  ",
-    live:"https://food-app-2024.netlify.app/",
-    code: "https://github.com/Anca200/Restaurant-Landing-Page.git"
-  },
-  {
-    id:3,
     title: "Movie Search API",
     img: movie,
     desc: "This project provided me with a foundational understanding of API integration and its implementation within a React application. For the first time, I learned how to connect to an external API and dynamically fetch and display data. The application features a search bar where users can input the name of a movie. Upon submission, the relevant movie data is retrieved from the API and rendered on the page.",
@@ -35,13 +27,21 @@ const items = [
     code: "https://github.com/Anca200/Movie-app.git"
   },
   {
-    id:4,
+    id:3,
     title: "VirtualR Website",
     img: virtual,
     desc: "This project encompasses the development of a two-player Pong game using JavaScript. The creation of this game was an engaging experience that significantly enhanced my understanding of JavaScript. In this game, one player utilizes the 'WASD' keys for control, while the other player uses the arrow keys.",
     live: "https://gorgeous-babka-fa922f.netlify.app/",
     code:"https://github.com/Anca200/Website-VirtualR.git"
-  }
+  },
+  {
+    id:4,
+    title: "Restaurant Landing Page",
+    img:restaurant,
+    desc: "This project provided a comprehensive introduction to React and reinforced the importance of component-based architecture in modern web development.The use of props allowed for efficient data transfer between components, facilitating a seamless and dynamic user experience.  ",
+    live:"https://food-app-2024.netlify.app/",
+    code: "https://github.com/Anca200/Restaurant-Landing-Page.git"
+  },
 ];
 
 const Single = ({item}) => {
