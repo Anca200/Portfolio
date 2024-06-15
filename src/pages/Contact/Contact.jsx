@@ -63,10 +63,7 @@ const sendEmail = (e) => {
  </div>
 
  <div className='form-container'> 
- <div className='svg-form'
-  initial={{opacity:1}}
-  whileInView={{opacity:0}}
-  transition={{delay:1.5,duration:1}}>
+ <div className='svg-form'>
  
  </div>
 
