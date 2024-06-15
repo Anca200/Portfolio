@@ -19,11 +19,22 @@
 }
 .contact-text h1{
     font-size: 2rem;
-    background-color: #113f67;
+    background: linear-gradient(71deg,  #111132, #030303,  #111132);
     border-radius: 20px;
     padding: 10px;
     margin-top: 50px;
+    position: relative;
 }
+.contact-text h1::after
+{position: absolute;
+top: -1px;
+bottom: -1px;
+left: -1px;
+right: -1px;
+content: "";
+z-index: -1;
+border-radius: 20px;
+background: linear-gradient(71deg, #0c0a0e, #5f6fad, #0c0a0e);}
 
 .item span{
  font-weight: 300;
@@ -41,36 +52,38 @@ form{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 3em;
+    padding: 20px;
     height: auto;
     border-radius: 20px;
     text-align: center;
     position: relative;
     transition: all 0.2s ease-in-out;
     background-color: rgb(17, 63, 103, 0.2);
+    background: linear-gradient(71deg,  #111132, #0a0720,  #111132);
   
 }
 input{
     padding: 20px;
     background-color: transparent;
-    border: 1px solid  #113f67;
+    border: 1px solid   #5f6fad;
     color: white;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 textarea{
     background-color: transparent;
-    border: 1px solid  #113f67;
+    border: 1px solid   #5f6fad;
     color: lightgray;
     padding: 30px;
+    border-radius: 20px;
+    resize: none;
 }
 form button,
 .item button{
     width: 150px;
     appearance: none;
-    background-color:#113f67;
+    background: linear-gradient(71deg,  #111132, #030303,  #111132);
     border-radius: 24px;
     border-style: none;
-    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
    color: lightgrey;
     cursor: pointer;
     padding: 10px;
@@ -78,17 +91,16 @@ form button,
     font-size: 1rem;
     margin: auto;
     margin-top: 10px;
+    position: relative;
+    border: 1px solid  #5f6fad;
 }
 form button:hover,
 .item button:hover{
-    background-color: #38598b;
+    border-radius: 6px;
+    border-color: #38598b;
+    transition: all 0.3s ease 0s;
 }
-hr{
-    height: 5px;
-    background-color: #38598b;
-    border-radius: 10px;
-    margin: 5px;
-}
+
 .svg-form{
     stroke:rgb(0, 0, 0);
     color: transparent;
