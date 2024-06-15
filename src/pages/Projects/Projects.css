@@ -34,6 +34,7 @@ align-items: center;
 }
 .progress .progressBar{
 height: 10px;
+background: linear-gradient(70deg, #0c0a0e, #1d2f7a, #0c0a0e);
 }
 .container-project{
 display: flex;
@@ -47,8 +48,7 @@ position: relative;
 border-radius: 30px;
 }
 .container-img::after,
-.progress h1::after,
-.progress .progressBar::after {
+.progress h1::after{
     position: absolute;
     top: -2px;
     bottom: -2px;

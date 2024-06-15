@@ -1,7 +1,7 @@
 import "./index.css";
 import Hero from "./pages/Hero/Hero";
 import About from "./pages/About/About";
-import Project_1 from "./pages/Projects/Project_1";
+import Projects from "./pages/Projects/Projects";
 
 
 import Contact from "./pages/Contact/Contact";
@@ -11,7 +11,7 @@ function Home() {
     <>
       <section id="Home"><Hero/></section>
       <section id="About"><About/></section>
-      <Project_1/>
+      <div id="Projects"><Projects/></div>
       <section id="Contact"><Contact/></section>
 
     </>
