@@ -3,7 +3,7 @@ import "./Projects.css";
 import e_commerce from "../../assets/E-commerce.png";
 import restaurant from "../../assets/Restaurant.png";
 import movie from "../../assets/Movie.png";
-import pong from "../../assets/pong.png";
+
 import {motion, useScroll, useSpring} from "framer-motion";
 import github from "../../assets/github.png";
 import virtual from "../../assets/VirtualR.png"
