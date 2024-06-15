@@ -14,25 +14,26 @@ align-items: center;
 }
 .progress img {
     width: 40px;
-    background-color: white;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 40px;
     margin: auto;
     margin-bottom: 10px;
+    position: relative;
+    background: #1d2f7a;
 }
 .progress h1{
-    background-color: #113f67;
     width: 250px;
     height: 50px;
     margin: auto;
     border-radius: 20px;
     margin-bottom: 10px;
     font-size: 2rem;
+    position: relative;
+    background: linear-gradient(71deg,  #111132, #04052b,  #111132);
 
 }
 .progress .progressBar{
 height: 10px;
-background-color: #38598b;
 }
 .container-project{
 display: flex;
@@ -45,12 +46,14 @@ padding: 50px;
 position: relative;
 border-radius: 30px;
 }
-.container-img::after {
+.container-img::after,
+.progress h1::after,
+.progress .progressBar::after {
     position: absolute;
-    top: -5px;
-    bottom: -5px;
-    left: -5px;
-    right: -5px;
+    top: -2px;
+    bottom: -2px;
+    left: -2px;
+    right: -2px;
     content: "";
     z-index: -1;
     border-radius: 20px;
@@ -70,18 +73,22 @@ margin: 30px;
 }
 .text-wrapper h2{
 font-size: 2rem;
-margin-bottom: 20px;
+margin-bottom: 50px;
 margin-top: 50px;
+border-radius: 20px;
+padding: 10px;
+position: relative;
+
+
+
 }
 .text-wrapper p {
 line-height: 2;
 }
 
 .text-wrapper button {
-    width: 150px;
      align-items: center;
      appearance: none;
-     background-color:#113f67;
      border-radius: 24px;
      border-style: none;
     color: lightgrey;
@@ -91,10 +98,19 @@ line-height: 2;
      font-size: 1rem;
      margin: 10px;
      background: linear-gradient(70deg, #0c0a0e, #1d2f7a, #0c0a0e);
+     width: 120px;
+     padding: 10px;
+     margin-top: 10px;
+     text-transform: uppercase;
+     border: 1px solid #1d2f7a;
+     border-radius: 50px;
+     transition: all 0.3s ease 0s;
 
    }
    .text-wrapper button:hover{
-       background-color: #38598b ;
+    border-radius: 6px;
+    border-color: #38598b;
+    transition: all 0.3s ease 0s
    }
 
 

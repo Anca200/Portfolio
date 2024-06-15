@@ -24,12 +24,13 @@ scroll-snap-align: start;
   width: 50px;
   height: 50px;
   position: fixed;
-  background-color: #38598b;
+  background-color:  #111132;
   right: 20px;
   z-index: 999;
   bottom: 10px;
   padding: 10px;
   border-radius: 50px;
+  filter: drop-shadow(0 0 0.75rem  #24246b);
 }
 .scroll-home:hover{
   background-color: #113f67;
