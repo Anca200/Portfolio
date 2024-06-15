@@ -50,8 +50,10 @@ const Single = ({item}) => {
   return(
     <section ref={ref}>
      <div className='container-project'>
-     <img src={item.img} alt=""/>
-     <div className='text-wrapper'> 
+      <div className='container-img'>
+      <img src={item.img} alt=""/>
+      </div> 
+       <div className='text-wrapper'> 
      <h2>{item.title}</h2>
      <p>{item.desc}</p>
      <a href={item.live} target="_blank"><button className='live'>Live</button></a>

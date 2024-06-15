@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
      margin-top: 50px;
-
 }
 .about-title {
 border-radius: 20px;
@@ -20,9 +19,9 @@ position: relative;
     margin-top: 50px;
 }
 .item-skill{
-    width: 100px;
-    height: 100px;
-    background: linear-gradient(71deg,  #111132, #04052b,  #111132);
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(71deg,  #111132, #04052b,  #111132);
 position: relative;
 border-radius: 20px;
 }
@@ -32,11 +31,9 @@ border-radius: 20px;
     margin: auto;
     margin-top: 10px;
 }
-
 .item-skill p {
   margin-top: 10px;
 }
-
 
 /*About*/
 
@@ -48,7 +45,7 @@ border-radius: 20px;
 }
 
 .about-me_container{
-    width: 600px;
+    width: 650px;
     height: 300px;
     margin: auto;
     border-radius: 20px;
