@@ -5,64 +5,36 @@
     flex-direction: column;
      margin-top: 50px;
 }
-
 .about-title {
 background-color: #113f67;
 border-radius: 20px;
 padding: 10px;
 font-size: 1.8rem;
+margin-top: 50px;
 }
 .items{
     display: flex;
     gap: 20px;
-    -webkit-animation: mover 2s infinite  alternate;
-    animation: mover 2s infinite  alternate;
     margin-top: 50px;
-    margin-bottom: 50px;
 }
 .item-skill{
-    width: 80px;
-    height: 60px;
-    border: 1px solid #113f67;
-    text-align: center;
-    align-items: center;
-    padding: 5px;
-    padding-left:20px;
-    padding-top: 10px;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(71deg,  #111132, #04052b,  #111132);
+position: relative;
+border-radius: 20px;
+}
+.item-skill img{
+    object-fit: cover;
+    width: 50px;
+    margin: auto;
+    margin-top: 10px;
 }
 
 .item-skill p {
-  margin-top: 20px;
-}
-.item-skill span{
-    align-items: center;
-    font-size: 2.5rem;
-    text-align: center;
-}
-#react{
-    color: rgb(75, 172, 220);
-}
-#html{
-    color: rgb(232, 69, 33);
-}
-#css{
-    color: rgb(75, 172, 220);
-}
-#js{
-    color: #c2ca2a;
-}
-#git{
-    color: rgb(239, 86, 51);
+  margin-top: 10px;
 }
 
-@-webkit-keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
-}
-@keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-20px); }
-}
 
 /*About*/
 
@@ -79,9 +51,26 @@ font-size: 1.8rem;
     margin: auto;
     border-radius: 20px;
     background-color: transparent;
-    box-shadow: 0 0 0 8px rgb(56, 89, 139);
     padding: 20px;
+    border: 2px solid transparent;
+  background: linear-gradient(71deg,  #111132, #030303,  #111132);
+  background-clip: padding-box;
+  position: relative;
+
 }
+.about-me_container::after,
+.item-skill::after{
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    left: -1px;
+    right: -1px;
+    content: "";
+    z-index: -1;
+    border-radius: 20px;
+    background: linear-gradient(71deg, #0c0a0e, #5f6fad, #0c0a0e);
+}
+
 .about-me_container h2{
 font-size: 2rem;
 margin-bottom: 12px;

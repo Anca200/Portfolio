@@ -1,58 +1,46 @@
 import React from 'react';
 import "./About.css";
-import { RiReactjsLine } from 'react-icons/ri';
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { RiJavascriptFill } from "react-icons/ri";
-import { FaGitAlt } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa6";
-import { motion} from 'framer-motion';
+import html from "../../assets/html.png";
+import css from "../../assets/css.webp";
+import tailwind from "../../assets/tailwind.png";
+import javascript from "../../assets/javascript.png";
+import react from "../../assets/react.png";
+import git from "../../assets/git.png";
+import github from "../../assets/github.svg"
 
 
-const textVariants = {
-  initial: {
-    x: -500,
-    opacity:0
-  },
-    animate: {
-       x:0,
-       opacity: 1,
-       transition:{
-        duration:1,
-        staggerChildren:0.1,
-       },
-    },}
 const About = () => {
   return (
-    <motion.div className='about-container'
-    variants={textVariants}
-    initial = "initial"
-    animate ="animate">
+    <div className='about-container'>
 
         <h2 className='about-title'>Skills</h2>
         <div className='items'>
         <div className='item-skill'>
-          <span id="html"><FaHtml5/></span>
+          <img src={html}/>
           <p>HTML</p>
           </div>
           <div className='item-skill'>
-          <span id="css"><FaCss3Alt /></span>
+          <img src={css}/>
           <p>CSS</p>
           </div>
           <div className='item-skill'>
-          <span id="js"><RiJavascriptFill /></span>
+          <img src={javascript}/>
           <p>Javascript</p>
           </div>
           <div className='item-skill'>
-          <span id="react"><RiReactjsLine/></span>
+          <img src={react}/>
           <p>React</p>
           </div>
           <div className='item-skill'>
-          <span id="git"><FaGitAlt /></span>
+          <img src={tailwind}/>
+          <p>Tailwind</p>
+          </div>
+          <div className='item-skill'>
+          <img src={git}/>
           <p>Git</p>
           </div>
           <div className='item-skill'>
-          <span id="github"><FaGithub /></span>
+          <img src={github}/>
           <p>GitHub</p>
           </div>
        </div>
@@ -66,7 +54,7 @@ const About = () => {
           </p>
         </div>
        </div>
-    </motion.div>
+    </div>
   )
 }
 
