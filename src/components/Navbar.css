@@ -36,3 +36,8 @@ border-radius: 6px;
 border-color: #38598b;
 transition: all 0.3s ease 0s;
 }
+@media (min-width:360px) and (max-width:935px){
+    .links a{
+        width: 100%;
+    }
+}

@@ -78,7 +78,7 @@ margin-bottom: 30px;
     background-color: #38598b;
 }
 .phone-body{
-    background: url(../../assets/phone-img.png);
+    background: url(../../assets/phoneimg.png);
     background-size: cover;
     background-repeat: no-repeat;   
     filter: drop-shadow(0 0 0.75rem  #24246b);
@@ -100,6 +100,7 @@ flex-direction: column;
     }
     .textContainer{
         width: 100%;
+        padding: 10px;
     }
     .textContainer:before{
        display: none;
