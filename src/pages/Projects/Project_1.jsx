@@ -5,7 +5,8 @@ import restaurant from "../../assets/Restaurant.png";
 import movie from "../../assets/Movie.png";
 import pong from "../../assets/pong.png";
 import {motion, useScroll, useSpring} from "framer-motion";
-import github from "../../assets/github.png"
+import github from "../../assets/github.png";
+import virtual from "../../assets/VirtualR.png"
 
 const items = [
   {
@@ -27,7 +28,7 @@ const items = [
   },
   {
     id:3,
-    title: "Movie Search",
+    title: "Movie Search API",
     img: movie,
     desc: "This project provided me with a foundational understanding of API integration and its implementation within a React application. For the first time, I learned how to connect to an external API and dynamically fetch and display data. The application features a search bar where users can input the name of a movie. Upon submission, the relevant movie data is retrieved from the API and rendered on the page.",
     live: "https://movie-app-anca200.netlify.app/" ,
@@ -35,12 +36,12 @@ const items = [
   },
   {
     id:4,
-    title: "Pong Game",
-    img: pong,
+    title: "VirtualR Website",
+    img: virtual,
     desc: "This project encompasses the development of a two-player Pong game using JavaScript. The creation of this game was an engaging experience that significantly enhanced my understanding of JavaScript. In this game, one player utilizes the 'WASD' keys for control, while the other player uses the arrow keys.",
-    live: "https://anca200.github.io/Pong-Game/",
-    code:"https://github.com/Anca200/Pong-Game.git"
-  },
+    live: "https://gorgeous-babka-fa922f.netlify.app/",
+    code:"https://github.com/Anca200/Website-VirtualR.git"
+  }
 ];
 
 const Single = ({item}) => {
@@ -55,7 +56,7 @@ const Single = ({item}) => {
       </div> 
        <div className='text-wrapper'> 
      <h2>{item.title}</h2>
-     <p>{item.desc}</p>
+
      <a href={item.live} target="_blank"><button className='live'>Live</button></a>
      <a href={item.code} target="_blank"><button className='live'>Code</button></a>
      </div>

@@ -62,17 +62,16 @@ width: 500px;
 border-radius: 20px;
 
 }
-
 .text-wrapper{
   text-align: center;
   height: 250px;
   width: 500px;
 margin: 30px;
-
 }
 .text-wrapper h2{
 font-size: 2rem;
 margin-bottom: 20px;
+margin-top: 50px;
 }
 .text-wrapper p {
 line-height: 2;
@@ -85,13 +84,14 @@ line-height: 2;
      background-color:#113f67;
      border-radius: 24px;
      border-style: none;
-     box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
     color: lightgrey;
      cursor: pointer;
      padding: 10px;
      text-align: center;
      font-size: 1rem;
      margin: 10px;
+     background: linear-gradient(70deg, #0c0a0e, #1d2f7a, #0c0a0e);
+
    }
    .text-wrapper button:hover{
        background-color: #38598b ;
