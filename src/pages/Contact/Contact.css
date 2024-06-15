@@ -63,8 +63,7 @@ form{
     background: linear-gradient(71deg,  #111132, #0a0720,  #111132);
   
 }
-input{
-    padding: 20px;
+form input{
     background-color: transparent;
     border: 1px solid   #5f6fad;
     color: white;
@@ -82,7 +81,6 @@ textarea{
 form button,
 .item button{
     width: 150px;
-    appearance: none;
     background: linear-gradient(71deg,  #111132, #030303,  #111132);
     border-radius: 24px;
     border-style: none;
