@@ -4,13 +4,15 @@
     display: flex;
     flex-direction: column;
      margin-top: 50px;
+
 }
 .about-title {
-background-color: #113f67;
 border-radius: 20px;
 padding: 10px;
 font-size: 1.8rem;
 margin-top: 50px;
+background: linear-gradient(71deg,  #111132, #04052b,  #111132);
+position: relative;
 }
 .items{
     display: flex;
@@ -59,7 +61,8 @@ border-radius: 20px;
 
 }
 .about-me_container::after,
-.item-skill::after{
+.item-skill::after,
+.about-title::after {
     position: absolute;
     top: -1px;
     bottom: -1px;
@@ -88,14 +91,9 @@ margin-bottom: 12px;
 @media (min-width:360px) and (max-width:935px){
  .items{
    display: grid;
-   grid-template-columns: 1fr 1fr;
-   row-gap: 40px;
+   grid-template-columns: 1fr 1fr 1fr;
  }
 
- .about-container {
-width: 100%;
-margin-bottom: 100px;
- }
  .about-container h2{
     font-size: 2rem;
  }
@@ -103,13 +101,9 @@ margin-bottom: 100px;
  .about-me_container{
     width: 90%;
    height: auto;
-   padding: 0;
  }
 
- .item-skill {
-   padding-left:20px;
-   padding-top: 10px;
- }
+
  .about-me {
    margin: 25px 0;
     padding: 0;
