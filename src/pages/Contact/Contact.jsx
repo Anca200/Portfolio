@@ -78,8 +78,8 @@ onSubmit={sendEmail}
  transition={{delay: 2.5,duration:1}}>
 
   <input type="text" required placeholder='Name' name="name" className='p-5'/>
-  <input type="email" required placeholder='Email' name= "email"/>
-  <textarea rows={8} placeholder='Message' name="message"/>
+  <input type="email" required placeholder='Email' name= "email" className='p-5'/>
+  <textarea rows={8} placeholder='Message' name="message" className='p-5 resize-none' />
   
   <button type="submit">Submit</button>
   {error && "Error"}
