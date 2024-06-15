@@ -48,10 +48,12 @@ const About = () => {
        <div className='about-me'>
         <div className='about-me_container'>
         <h2>About Me</h2>
-          <p >I thrive on solving complex problems and optimizing code for performance and maintainability.<br/>
-          Constantly staying updated with emerging technologies and industry trends fuels my passion for continuous learning and innovation in front-end development.<br/>
-          I possess strong creative instincts, allowing me to transform design concepts into engaging and visually striking user experiences.
-          </p>
+     
+          <ul>
+            <li>I thrive on solving complex problems and optimizing code for performance and maintainability.</li>
+            <li>Constantly staying updated with emerging technologies and industry trends fuels my passion for continuous learning and innovation in front-end development.</li>
+            <li>I possess strong creative instincts, allowing me to transform design concepts into engaging and visually striking user experiences.</li>
+          </ul>
         </div>
        </div>
     </div>
