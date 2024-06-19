@@ -19,11 +19,11 @@ const items = [
   },
   {
     id:2,
-    title: "Movie Search API",
+    title: "Netflix Clone",
     img: movie,
     desc: "This project provided me with a foundational understanding of API integration and its implementation within a React application. For the first time, I learned how to connect to an external API and dynamically fetch and display data. The application features a search bar where users can input the name of a movie. Upon submission, the relevant movie data is retrieved from the API and rendered on the page.",
-    live: "https://movie-app-anca200.netlify.app/" ,
-    code: "https://github.com/Anca200/Movie-app.git"
+    live: "https://netflix-react-clone-1ce63.web.app/" ,
+    code: "https://github.com/Anca200/netflix-clone.git"
   },
   {
     id:3,
