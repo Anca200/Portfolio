@@ -10,20 +10,20 @@ import virtual from "../../assets/VirtualR.png"
 const items = [
   {
     id:1,
+    title: "Netflix Clone",
+    img: netflix,
+    desc: "This project provided me with a foundational understanding of API integration and its implementation within a React application. For the first time, I learned how to connect to an external API and dynamically fetch and display data. The application features a search bar where users can input the name of a movie. Upon submission, the relevant movie data is retrieved from the API and rendered on the page.",
+    live: "https://netflix-react-clone-1ce63.web.app/" ,
+    code: "https://github.com/Anca200/netflix-clone.git"
+  },
+  {
+    id:2,
     title: "E-commerce",
     img: e_commerce,
     desc: "This project was my initial foray into building an e-commerce website with React. Through this experience, I gained valuable insights into the architecture and development process of an e-commerce platform. I had fun building this project",
     live: "https://euphonious-lokum-728f4a.netlify.app/",
     code:"https://github.com/Anca200/E-commerce.git" 
   
-  },
-  {
-    id:2,
-    title: "Netflix Clone",
-    img: netflix,
-    desc: "This project provided me with a foundational understanding of API integration and its implementation within a React application. For the first time, I learned how to connect to an external API and dynamically fetch and display data. The application features a search bar where users can input the name of a movie. Upon submission, the relevant movie data is retrieved from the API and rendered on the page.",
-    live: "https://netflix-react-clone-1ce63.web.app/" ,
-    code: "https://github.com/Anca200/netflix-clone.git"
   },
   {
     id:3,
