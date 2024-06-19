@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import "./Projects.css";
 import e_commerce from "../../assets/E-commerce.png";
 import restaurant from "../../assets/Restaurant.png";
-import movie from "../../assets/Movie.png";
+import netflix from "../../assets/netflix-img.png"
 import {motion, useScroll, useSpring} from "framer-motion";
 import github from "../../assets/github.png";
 import virtual from "../../assets/VirtualR.png"
@@ -20,7 +20,7 @@ const items = [
   {
     id:2,
     title: "Netflix Clone",
-    img: movie,
+    img: netflix,
     desc: "This project provided me with a foundational understanding of API integration and its implementation within a React application. For the first time, I learned how to connect to an external API and dynamically fetch and display data. The application features a search bar where users can input the name of a movie. Upon submission, the relevant movie data is retrieved from the API and rendered on the page.",
     live: "https://netflix-react-clone-1ce63.web.app/" ,
     code: "https://github.com/Anca200/netflix-clone.git"
