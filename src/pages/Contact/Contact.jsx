@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import "./Contact.css";
 import {motion} from "framer-motion";
 import emailjs from '@emailjs/browser';
-import resume from "../../assets/Anca Pandeli Resume.pdf";
+import resume from "../../assets/resume.pdf";
 
 const variants ={
   initial:{
