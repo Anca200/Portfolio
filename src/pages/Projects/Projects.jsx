@@ -14,7 +14,7 @@ const items = [
     img: netflix,
     desc: "This project provided me with a foundational understanding of API integration and its implementation within a React application. For the first time, I learned how to connect to an external API and dynamically fetch and display data. The application features a search bar where users can input the name of a movie. Upon submission, the relevant movie data is retrieved from the API and rendered on the page.",
     live: "https://golden-dolphin-f31e35.netlify.app/" ,
-    code: "https://github.com/Anca200/netflix-clone.git"
+    code: "https://github.com/Anca200/netflix-vite.git"
   },
   {
     id:2,
