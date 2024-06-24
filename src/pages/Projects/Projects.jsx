@@ -1,11 +1,11 @@
 import React, { useRef } from 'react';
 import "./Projects.css";
 import e_commerce from "../../assets/E-commerce.png";
-import restaurant from "../../assets/Restaurant.png";
 import netflix from "../../assets/netflix-img.png"
 import {motion, useScroll, useSpring} from "framer-motion";
 import github from "../../assets/github.png";
 import virtual from "../../assets/VirtualR.png"
+import crypto from "../../assets/crypto-img.png"
 
 const items = [
   {
@@ -18,6 +18,14 @@ const items = [
   },
   {
     id:2,
+    title: "Restaurant Landing Page",
+    img:crypto,
+    desc: "This project provided a comprehensive introduction to React and reinforced the importance of component-based architecture in modern web development.The use of props allowed for efficient data transfer between components, facilitating a seamless and dynamic user experience.  ",
+    live:"https://peaceful-pixie-d78816.netlify.app/",
+    code: "https://github.com/Anca200/CRYPTO.gitt"
+  },
+  {
+    id:3,
     title: "E-commerce",
     img: e_commerce,
     desc: "This project was my initial foray into building an e-commerce website with React. Through this experience, I gained valuable insights into the architecture and development process of an e-commerce platform. I had fun building this project",
@@ -26,21 +34,13 @@ const items = [
   
   },
   {
-    id:3,
+    id:4,
     title: "VirtualR Website",
     img: virtual,
     desc: "This project encompasses the development of a two-player Pong game using JavaScript. The creation of this game was an engaging experience that significantly enhanced my understanding of JavaScript. In this game, one player utilizes the 'WASD' keys for control, while the other player uses the arrow keys.",
     live: "https://gorgeous-babka-fa922f.netlify.app/",
     code:"https://github.com/Anca200/Website-VirtualR.git"
-  },
-  {
-    id:4,
-    title: "Restaurant Landing Page",
-    img:restaurant,
-    desc: "This project provided a comprehensive introduction to React and reinforced the importance of component-based architecture in modern web development.The use of props allowed for efficient data transfer between components, facilitating a seamless and dynamic user experience.  ",
-    live:"https://food-app-2024.netlify.app/",
-    code: "https://github.com/Anca200/Restaurant-Landing-Page.git"
-  },
+  }
 ];
 
 const Single = ({item}) => {
