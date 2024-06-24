@@ -18,7 +18,7 @@ const items = [
   },
   {
     id:2,
-    title: "Restaurant Landing Page",
+    title: "Crypto Search Website",
     img:crypto,
     desc: "This project provided a comprehensive introduction to React and reinforced the importance of component-based architecture in modern web development.The use of props allowed for efficient data transfer between components, facilitating a seamless and dynamic user experience.  ",
     live:"https://peaceful-pixie-d78816.netlify.app/",
