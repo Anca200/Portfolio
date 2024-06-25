@@ -5,7 +5,7 @@ import mouse from "../../assets/mouse.svg";
 import { motion} from 'framer-motion';
 import HeaderBar from "../../components/HeaderBar";
 import { IoIosArrowUp } from "react-icons/io";
-
+import mobile from "../../assets/mobile.png"
 
 // animation
 const textVariants = {
@@ -30,7 +30,7 @@ const textVariants = {
       }
     }
   }
-
+{/*text animation*/}
 
 
 const Hero = () => {
@@ -71,6 +71,7 @@ const Hero = () => {
         ease: "easeInOut"
        }}
        >
+        <img src={mobile}  className='h-full rounded-[20px]'/>
        <HeaderBar/>
        </motion.div>
     </div>

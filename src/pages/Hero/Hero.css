@@ -7,7 +7,7 @@
     position: absolute;
     top: 200px;
     right: 250px;
-    background-color: #000000;
+    background-color: #35357c;
 }
 .textContainer img{
     width: 50px;
@@ -77,11 +77,8 @@ margin-bottom: 30px;
 .textContainer button:hover{
     background-color: #38598b;
 }
-.phone-body{
-    background: url(../../assets/phoneimg.png);
-    background-size: cover;
-    background-repeat: no-repeat;   
-    filter: drop-shadow(0 0 0.75rem  #24246b);
+.phone-body{  
+   border: 2px solid rgb(152, 147, 147);
 }
 
 /*Mobile*/
