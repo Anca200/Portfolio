@@ -18,19 +18,18 @@ section{
 height: 100vh;
 scroll-snap-align: start;
 }
-
-
 .scroll-home{
   width: 50px;
   height: 50px;
   position: fixed;
   background-color:  #111132;
   right: 20px;
-  z-index: 999;
+  z-index: 10;
   bottom: 10px;
-  padding: 10px;
   border-radius: 50px;
   filter: drop-shadow(0 0 0.75rem  #24246b);
+  color:gray;
+  
 }
 .scroll-home:hover{
   background-color: #113f67;

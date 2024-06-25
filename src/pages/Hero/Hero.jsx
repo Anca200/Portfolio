@@ -3,8 +3,9 @@ import "./Hero.css";
 import Navbar from '../../components/Navbar';
 import mouse from "../../assets/mouse.svg";
 import { motion} from 'framer-motion';
-import arrow from "../../assets/up-arrow.png";
 import HeaderBar from "../../components/HeaderBar";
+import { IoIosArrowUp } from "react-icons/io";
+
 
 // animation
 const textVariants = {
@@ -31,6 +32,7 @@ const textVariants = {
   }
 
 
+
 const Hero = () => {
   return (
   <>
@@ -43,7 +45,7 @@ const Hero = () => {
     variants={textVariants}
     initial = "initial"
     animate ="animate">
-    <h2  >Hi &#128075; I'm a Junior Front-end <span className='span-1'>Developer</span></h2>
+    <h2 >Hi &#128075; I'm a Junior React  <span className='span-1  '>Web Developer</span></h2>
     <p  ><span className='span-2'>My name is Anca !</span> <br/>I specialize in crafting user-friendly interfaces that seamlessly blend cutting-edge design with robust functionality, driving optimal user experiences and elevating digital presence</p>
     <a href="#Projects"><motion.button whileTap={{scale:0.85}} >Check out my projects</motion.button></a>
     <a href="#About"><motion.img  variants={textVariants} animate="scrollButton"  src={mouse} alt=""/></a>
@@ -73,7 +75,7 @@ const Hero = () => {
        </motion.div>
     </div>
     <a href="#Home"><div className="scroll-home">
-   <img src={arrow} alt=""/>
+    <IoIosArrowUp size={35} className='m-auto mt-[5px]'/>
     </div></a>
   </div>
   </>

@@ -6,14 +6,15 @@ import tailwind from "../../assets/tailwind.png";
 import javascript from "../../assets/javascript.png";
 import react from "../../assets/react.png";
 import git from "../../assets/git.png";
-import github from "../../assets/github.svg"
+import github from "../../assets/github.svg";
+import firebase from "../../assets/firebase.png";
 
 
 const About = () => {
   return (
     <div className='about-container'>
 
-        <h2 className='about-title'>Skills</h2>
+        <h2 className='about-title '>Skills</h2>
         <div className='items'>
         <div className='item-skill'>
           <img src={html}/>
@@ -43,17 +44,25 @@ const About = () => {
           <img src={github}/>
           <p>GitHub</p>
           </div>
+          <div className='item-skill'>
+          <img src={firebase}/>
+          <p>FireBase</p>
+          </div>
        </div>
 
        <div className='about-me'>
         <div className='about-me_container'>
-        <h2>About Me</h2>
+        <h2 className='text-gray-200'>About Me</h2>
      
-          <ul>
-            <li>I thrive on solving complex problems and optimizing code for performance and maintainability.</li>
-            <li>Constantly staying updated with emerging technologies and industry trends fuels my passion for continuous learning and innovation in front-end development.</li>
-            <li>I possess strong creative instincts, allowing me to transform design concepts into engaging and visually striking user experiences.</li>
-          </ul>
+          <div className='text-gray-200'>
+            <p>Familiar with <b>Firebase</b> authentication</p>
+            <p>Strong knowledge of <b>responsive design</b> </p>
+            <p>Familiar with <b>APIs</b>, fetching and displaying <b>data</b></p>
+            <p>Beginner <b> React</b> knowledge: components, hooks, props, React Router Dom</p>
+            <p><b>Tailwind</b> lover </p>
+            <p>I like using <b>Vite</b> for my <b>React</b> projects</p>
+            <p>Always <b>improving </b>and learning new <b>skills</b></p>
+          </div>
         </div>
        </div>
     </div>
