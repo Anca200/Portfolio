@@ -46,7 +46,7 @@ const Hero = () => {
     initial = "initial"
     animate ="animate">
     <h2 >Hi &#128075; I'm a Junior React  <span className='span-1  '>Web Developer</span></h2>
-    <p  ><span className='span-2'>My name is Anca !</span> <br/>I specialize in crafting user-friendly interfaces that seamlessly blend cutting-edge design with robust functionality, driving optimal user experiences and elevating digital presence</p>
+    <p  ><span className='span-2'>My name is <b>Anca </b>!</span> <br/> I'm passionate about creating user-friendly interfaces that seamlessly blend cutting-edge design with robust functionality, driving optimal user experiences and elevating digital presence</p>
     <a href="#Projects"><motion.button whileTap={{scale:0.85}} >Check out my projects</motion.button></a>
     <a href="#About"><motion.img  variants={textVariants} animate="scrollButton"  src={mouse} alt=""/></a>
     </motion.div>

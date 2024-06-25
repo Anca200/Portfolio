@@ -73,18 +73,16 @@ margin: 30px;
 }
 .text-wrapper h2{
 font-size: 2rem;
-margin-bottom: 50px;
 
 border-radius: 20px;
 padding: 10px;
 position: relative;
 
-
-
 }
 .text-wrapper p {
 line-height: 2;
 font-family: "Work Sans", sans-serif;
+margin-bottom: 20px;
 }
 
 .text-wrapper button {
