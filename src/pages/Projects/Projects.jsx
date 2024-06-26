@@ -20,7 +20,7 @@ const items = [
     id:2,
     title: "Crypto Search API",
     img:crypto,
-    desc: "This project was made using CoinGecko API for fetching the data and changing the currency from USD to Euro. Typing in the search bar will display the searched coin, additionally by selecting a coin, a new page will open with a chart and data. The style was made with Tailwind. Firesbase authentication will be added in the future",
+    desc: "This project was made using CoinGecko API for fetching the data and changing the currency from USD to Euro. Typing in the search bar will display the searched coin, additionally by selecting a coin, a new page will open with a chart and data. It comes with Firesbase authentication  and data storing. The style was made with Tailwind.",
     live:"https://peaceful-pixie-d78816.netlify.app/",
     code: "https://github.com/Anca200/CRYPTO.gitt"
   },
